@@ -126,13 +126,7 @@ body {
   transform: translateY(-22px);
   object-fit: cover;
 }
-/* .card__img:hover ~ .card__social {
-  transform: translateY(-100px);
-} */
-.card__img:hover ~ .card__social span:first-child {
-  color: blue;
-  transform: translateY(-120px);
-}
+
 .card__social span:first-child:hover {
   color: blue;
 }
@@ -145,18 +139,7 @@ body {
 .card__social span:nth-child(4):hover {
   color: #ececec;
 }
-.card__img:hover ~ .card__social span:nth-child(2) {
-  color: red;
-  transform: translateY(-120px);
-}
-.card__img:hover ~ .card__social span:nth-child(3) {
-  color: black;
-  transform: translateY(-120px);
-}
-.card__img:hover ~ .card__social span:last-child {
-  color: #eee;
-  transform: translateY(-120px);
-}
+
 .card__social span:hover {
   transform: translateY(-5px);
 }
